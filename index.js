@@ -1,1 +1,1 @@
-console.log('Good Morning All');
+console.log('Good Morning');
