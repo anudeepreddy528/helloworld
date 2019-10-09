@@ -1,12 +1,12 @@
 {
   "name": "semantic_versoning",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "release": "standard-version",
-    "path":"sh path.sh"
+    "path": "sh path.sh"
   },
   "keywords": [],
   "author": "",
