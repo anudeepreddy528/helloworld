@@ -9,7 +9,7 @@ shell.find(shell.pwd()).filter((file)=>{
         if(file.match('CHANGELOG.md') != null){
             let metadata = file.match('CHANGELOG.md').input;
             console.log("path of metadata is: "+ metadata);
-            await storage.bucket('sams-poc').upload(metadata);
+            storage.bucket('sams-poc').upload(metadata);
          }
     }
 });
